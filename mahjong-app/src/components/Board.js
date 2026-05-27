@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import Tile, { tileToPixel, TILE_WIDTH, TILE_HEIGHT, GRID_UNIT } from './Tile';
+import Tile from './Tile';
 
 export default function Board({ game, onTileTap, hintTiles, scale, boardOffset }) {
   const visibleTiles = useMemo(
